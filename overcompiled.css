@@ -51,18 +51,18 @@ a{
 color: white;
 text-decoration: none;
 cursor: pointer;
-box-shadow: inset 0 0 0 0 #54b3d6;
-transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+
 }
 
 a:hover{
-    color: bisque;
+   
     text-transform: uppercase;
     border-top: 100px;
-    transform: rotate(90deg); /* Équivalent à rotateZ(45deg) */
-    box-shadow: inset 200px 0 0 0 #54b3d6;
+   
+    box-shadow:  200px 0 0 0 #54b3d6 inset;
     color: white;
-  
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .footer{
