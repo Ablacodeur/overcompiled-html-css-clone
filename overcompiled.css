@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=IBM+Plex+Sans:wght@700&display=swap');
+
+
+body{
+    color: white;
+    background-color: black;
+    font-family: 'Beau Rivage', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+.contener{
+    width: 50%;
+    height: 1240%;
+    margin-top: 3rem;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    margin-top: 6%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+.menu,a{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.page{
+    margin-top: 60px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.pageh{
+    display: flex;
+    justify-content: space-between;
+}
+.article{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+    margin-right: 5%;
+    padding: 2rem;
+
+}
+
+a{
+color: white;
+text-decoration: none;
+cursor: pointer;
+}
+
+a:hover{
+    color: bisque;
+    
+    transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
+   
+     
+}
+
+.footer{
+    border-top: 1px solid grey;
+    color: grey;
+    padding-left: 40px;
+}
+
