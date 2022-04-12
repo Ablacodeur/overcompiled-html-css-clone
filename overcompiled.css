@@ -51,7 +51,7 @@ a{
 color: white;
 text-decoration: none;
 cursor: pointer;
-
+transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 
 }
 
@@ -60,10 +60,9 @@ a:hover{
     text-transform: uppercase;
     border-top: 100px;
    
-    box-shadow:  200px 0 0 0 #54b3d6 inset;
+    box-shadow:  200px 0 0  #54b3d6 inset;
     color: white;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
+   } 
 
 .footer{
     border-top: 1px solid grey;
