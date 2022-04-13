@@ -9,7 +9,7 @@ body{
     
 }
 .contener{
-    width: 50%;
+    width: 70%;
     height: 1240%;
     margin-top: 3rem;
     align-items: center;
@@ -18,14 +18,18 @@ body{
     margin-top: 6%;
 }
 header{
+    
     display: flex;
     justify-content: space-between;
     font-size: large;
 }
-.menu,a{
-    padding-left: 10px;
-    padding-right: 10px;
 
+
+
+.menu>a{
+  padding-left: 10px;  
+  padding-right: 10px;
+    
 }
 
 .page{
@@ -41,8 +45,8 @@ header{
 .article{
     display: flex;
     justify-content: space-between;
-    margin-left: 1%;
-    margin-right: 5%;
+    position: relative;
+    margin-right: 1%;
     padding: 2rem;
 
 }
@@ -51,22 +55,37 @@ a{
 color: white;
 text-decoration: none;
 cursor: pointer;
-transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-
+transition: color .1s ease-in-out, box-shadow .3s ease-in-out ,border .3s ease-in-out ,margin-top .1s;
+position: relative;
 }
 
 a:hover{
-   
-    text-transform: uppercase;
-    border-top: 100px;
-   
-    box-shadow:  200px 0 0  #54b3d6 inset;
+    position: relative;
+    font-style: oblique;
+    
+    border-radius: 20px;
+    box-shadow:  800px 0 0 0  #54b3d6 inset;
     color: white;
+    margin-top: -20px;
+    transition-delay: 0 s;
    } 
 
 .footer{
     border-top: 1px solid grey;
     color: grey;
     padding-left: 40px;
+}
+.log>a{
+    color: brown;
+    transition: color .3s ease, box-shadow .3s ease;
+    position: relative;
+   
+    margin-left: 20% ;
+}
+.log>a:hover{
+    color: brown;
+    box-shadow: 300px 0px 0 white inset;
+    margin-top: -80px;
+    transition-delay: 0.2s;
 }
 
